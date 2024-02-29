@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 21);
+}
+
+
+
+/* Основной стиль для навигационного меню */
+.navbar {
+    background: rgb(42,105,127);
+    background: linear-gradient(90deg, rgba(42,105,127,1) 9%, rgba(38,131,150,1) 19%, rgba(204,0,165,1) 29%, rgba(255,0,0,1) 49%, rgba(149,1,121,1) 70%, rgba(38,121,148,1) 86%, rgba(1,83,121,1) 99%); /* Основной цвет фона (темно-синий) */
+    padding: 25px;
+    text-align: center; /* Выравнивание элементов по центру */
+}
+
+/* Стили для списка */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+/* Стили для каждого элемента списка (пункта меню) */
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Стили для ссылок (кнопок) */
+.navbar a {
+    text-decoration: none;
+    /* background-color: #0074D9; Цвет фона кнопок (голубой) */
+    color: #FFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 1s; /* Плавное изменение цвета фона при наведении */
+}
+
+/* Стили для ссылок при наведении курсора */
+.navbar a:hover {
+    background-color: #0056b3; /* Изменение цвета фона при наведении (темно-голубой) */
+}
+
+.section{
+    background: rgb(42,105,127);
+    background: linear-gradient(90deg, rgba(42,105,127,1) 9%, rgba(38,131,150,1) 19%, rgba(204,0,165,1) 29%, rgba(255,0,0,1) 49%, rgba(149,1,121,1) 70%, rgba(38,121,148,1) 86%, rgba(1,83,121,1) 99%);
+}
+
+.section p{
+    height: 100vh;
+}
+
+.section h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px 50px 50px ;
+}
+
+.section .bas img{
+    margin-left: 110px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 150px;
+}
+.images{
+    display: inline-block;
+}
+.section .bas .images img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.section .bas{
+    display: flex;
+    column-gap: 85px;
+}
+
+.section a{
+    text-decoration: none;
+    color: white;
+}
+.section .bas p{
+    color: #FFF;
+    text-align:justify;
+    margin-right: 75px;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #001f3f;
+    padding: 50px;
+    width: 1045px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    margin-left: 100px;
+    column-gap: 300px;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    flex-basis: 50%;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.footer-left p{
+    margin-bottom: 5px;
+}
